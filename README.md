@@ -138,9 +138,3 @@ Defines employee job roles/titles.
   A sale can include one or multiple payments.
 
 ---
-
-## ER Diagram
-
-<img src="https://github.com/user-attachments/assets/26c3fc4b-5404-4748-a8dc-7950db65644b" alt="Vehicle Dealership Management System ER Diagram">
-
-If the image does not render in your environment, replace the URL above with a repository-hosted diagram file path (for example, in a `/docs` folder).
