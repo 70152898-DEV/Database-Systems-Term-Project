@@ -133,7 +133,7 @@ Defines employee job roles/titles.
 - **One-to-Many**: `EMPLOYEES` → `SALES`  
   One salesperson can complete many sales.
 - **One-to-One**: `VEHICLES_INVENTORY` ↔ `SALES`  
-  One vehicle unit can appear in at most one sale.
+  One vehicle unit can appear in at most one sale. In this schema, each inventory record represents a unique physical unit tracked through first sale; any later buy-back/trade-in should be inserted as a new inventory record.
 - **One-to-Many**: `SALES` → `PAYMENTS`  
   A sale can include one or multiple payments.
 
@@ -142,3 +142,5 @@ Defines employee job roles/titles.
 ## ER Diagram
 
 <img src="https://github.com/user-attachments/assets/26c3fc4b-5404-4748-a8dc-7950db65644b" alt="Vehicle Dealership Management System ER Diagram">
+
+If the image does not render in your environment, replace the URL above with a repository-hosted diagram file path (for example, in a `/docs` folder).
